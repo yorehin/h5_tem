@@ -226,27 +226,27 @@ export default {
 }
 .MySlider7{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/o.png");
+  background-image: url("assets/TaxBureau/layout/g.png");
   background-size: 100%;
 }
 .MySlider8{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/q.png");
+  background-image: url("assets/TaxBureau/layout/h.png");
   background-size: 100%;
 }
 .MySlider9{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/qweqwe.png");
+  background-image: url("assets/TaxBureau/layout/i.png");
   background-size: 100%;
 }
 .MySlider10{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/t.png");
+  background-image: url("assets/TaxBureau/layout/j.png");
   background-size: 100%;
 }
 .MySlider11{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/w.png");
+  background-image: url("assets/TaxBureau/layout/k.png");
   background-size: 100%;
 }
   .bounce{
