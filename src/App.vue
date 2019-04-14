@@ -7,33 +7,79 @@
     <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback">
       <!-- slides -->
       <swiper-slide>
-        <section class="MySlider" style="background-color: blueviolet">
+        <section  class="MySlider1"  style="background-color: blueviolet">
           <p class="bounce" >
           </p>
         </section>
       </swiper-slide>
       <swiper-slide>
-        <section class="MySlider"  style="background-color: green">
-          <p>1<img src="assets/TaxBureauImg/1-1首页1.png" height="3090" width="750"/>
-            <img src="assets/TaxBureauImg/try2.png" height="100%" width="100%"/>
+        <section  class="MySlider2">
+          <p>
           </p>
         </section>
       </swiper-slide>
       <swiper-slide>
-        <section class="MySlider"  style="background-color: pink">
-          <p>3333333333
-            <img src="assets/TaxBureauImg/try2.png" height="100%" width="100%"/>
+        <section  class="MySlider3">
+          <p>
           </p>
         </section>
       </swiper-slide>
       <swiper-slide>
-        <section class="MySlider"  style="background-color: aqua">
-          <p>44444444444
-            <img src="assets/TaxBureauImg/try2.png" height="100%" width="100%"/>
-          </p>
-        </section>
-      </swiper-slide>
+        <section  class="MySlider4">
+          <p>
 
+          </p>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider5">
+          <p>
+
+          </p>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider6">
+          <p>
+
+          </p>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider7">
+          <p>
+
+          </p>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider8">
+          <p>
+
+          </p>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider9">
+          <p>
+
+          </p>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider10">
+          <p>
+
+          </p>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider11">
+          <p>
+
+          </p>
+        </section>
+      </swiper-slide>
       <!--<swiper-slide>I'm Slide 3</swiper-slide>-->
       <!--<swiper-slide>I'm Slide 4</swiper-slide>-->
       <!--<swiper-slide>I'm Slide 5</swiper-slide>-->
@@ -50,32 +96,32 @@
 
 <script>
 import {swiper, swiperSlide} from 'vue-awesome-swiper'
-import one from 'components/TaxBureau/One'
-import two from 'components/TaxBureau/Two'
-import three from 'components/TaxBureau/Three'
-import four from 'components/TaxBureau/Four'
-import five from 'components/TaxBureau/Five'
-import six from 'components/TaxBureau/Six'
-import seven from 'components/TaxBureau/Seven'
-import eight from 'components/TaxBureau/Eight'
-import nine from 'components/TaxBureau/Nine'
-import ten from 'components/TaxBureau/Ten'
-import eleven from 'components/TaxBureau/Eleven'
+// import one from 'components/TaxBureau/One'
+// import two from 'components/TaxBureau/Two'
+// import three from 'components/TaxBureau/Three'
+// import four from 'components/TaxBureau/Four'
+// import five from 'components/TaxBureau/Five'
+// import six from 'components/TaxBureau/Six'
+// import seven from 'components/TaxBureau/Seven'
+// import eight from 'components/TaxBureau/Eight'
+// import nine from 'components/TaxBureau/Nine'
+// import ten from 'components/TaxBureau/Ten'
+// import eleven from 'components/TaxBureau/Eleven'
 export default {
   components: {
     swiper,
-    swiperSlide,
-    one,
-    two,
-    three,
-    four,
-    five,
-    six,
-    seven,
-    eight,
-    nine,
-    ten,
-    eleven
+    swiperSlide
+    // one,
+    // two,
+    // three,
+    // four,
+    // five,
+    // six,
+    // seven,
+    // eight,
+    // nine,
+    // ten,
+    // eleven
   },
   name: 'App',
   data () {
@@ -148,9 +194,61 @@ export default {
   /*width: 600px;*/
   height: 100vh;
 }
-  .MySlider{
+  .MySlider1{
     height: 100vh;
+    background-image: url("assets/TaxBureau/layout/a.png");
+    background-size: 100%;
   }
+.MySlider2{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/b.png");
+  background-size: 100%;
+}
+.MySlider3{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/c.png");
+  background-size: 100%;
+}
+.MySlider4{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/d.png");
+  background-size: 100%;
+}
+.MySlider5{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/e.png");
+  background-size: 100%;
+}
+.MySlider6{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/f.png");
+  background-size: 100%;
+}
+.MySlider7{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/o.png");
+  background-size: 100%;
+}
+.MySlider8{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/q.png");
+  background-size: 100%;
+}
+.MySlider9{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/qweqwe.png");
+  background-size: 100%;
+}
+.MySlider10{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/t.png");
+  background-size: 100%;
+}
+.MySlider11{
+  height: 100vh;
+  background-image: url("assets/TaxBureau/layout/w.png");
+  background-size: 100%;
+}
   .bounce{
     background-color: red;
     /*-webkit-animation:bounce 2s infinite;*/
