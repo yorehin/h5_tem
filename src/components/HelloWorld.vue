@@ -82,7 +82,7 @@
     <!--</ul>-->
   <!--</div>-->
   <div>
-
+    你好我是helloWorld页面~！
   </div>
 </template>
 
