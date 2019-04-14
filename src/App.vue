@@ -9,10 +9,10 @@
       <swiper-slide>
         <section  class="MySlider1"  style="background-color: blueviolet">
           <p class="bounce" >
-            <img src="assets/TaxBureau/cutChart/One/reform.png" height="289" width="579"/>
-            <img src="assets/TaxBureau/cutChart/One/bulb.png" height="280" width="250"/>
-            <img src="assets/TaxBureau/cutChart/One/propaganda.png" height="99" width="286"/>
-            <img src="assets/TaxBureau/cutChart/One/person.png" height="456" width="209"/>
+            <img src="assets/TaxBureau/cutChart/a/reform.png" height="289" width="579"/>
+            <img src="assets/TaxBureau/cutChart/a/bulb.png" height="280" width="250"/>
+            <img src="assets/TaxBureau/cutChart/a/propaganda.png" height="99" width="286"/>
+            <img src="assets/TaxBureau/cutChart/a/person.png" height="456" width="209"/>
           </p>
         </section>
       </swiper-slide>
@@ -200,7 +200,7 @@ export default {
 }
   .MySlider1{
     height: 100vh;
-    background-image: url("assets/TaxBureau/cutChart/One/back.png");
+    background-image: url("assets/TaxBureau/cutChart/a/back.png");
     background-size: 100%;
   }
 .MySlider2{
