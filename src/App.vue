@@ -50,11 +50,32 @@
 
 <script>
 import {swiper, swiperSlide} from 'vue-awesome-swiper'
+import one from 'components/TaxBureau/One'
+import two from 'components/TaxBureau/Two'
+import three from 'components/TaxBureau/Three'
+import four from 'components/TaxBureau/Four'
+import five from 'components/TaxBureau/Five'
+import six from 'components/TaxBureau/Six'
+import seven from 'components/TaxBureau/Seven'
+import eight from 'components/TaxBureau/Eight'
+import nine from 'components/TaxBureau/Nine'
+import ten from 'components/TaxBureau/Ten'
+import eleven from 'components/TaxBureau/Eleven'
 export default {
   components: {
     swiper,
     swiperSlide,
-    loop: true
+    one,
+    two,
+    three,
+    four,
+    five,
+    six,
+    seven,
+    eight,
+    nine,
+    ten,
+    eleven
   },
   name: 'App',
   data () {
@@ -140,7 +161,8 @@ export default {
 .swiper-slide p{
   transform:translateX(-200px);
   opacity:0;
-  transition:all .4s;}
+  transition:all .4s;
+}
 .ani-slide p{
   transform:translateX(0);
   opacity:1;
