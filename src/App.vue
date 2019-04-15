@@ -8,80 +8,128 @@
       <!-- slides -->
       <swiper-slide>
         <section  class="MySlider1"  style="background-color: blueviolet">
-          <p class="bounce" >
-            <img src="assets/TaxBureau/cutChart/a/reform.png" height="289" width="579"/>
-            <img src="assets/TaxBureau/cutChart/a/bulb.png" height="280" width="250"/>
-            <img src="assets/TaxBureau/cutChart/a/propaganda.png" height="99" width="286"/>
-            <img src="assets/TaxBureau/cutChart/a/person.png" height="456" width="209"/>
-          </p>
+          <div class="bounce">
+            <img src="./assets/TaxBureau/cutChart/a/reform.png" width="78%" style="display: flex;margin: 20% auto 0;"/>
+            <img src="./assets/TaxBureau/cutChart/a/bulb.png" width="30%" style="display: flex; margin: 3% auto 0"/>
+            <img src="./assets/TaxBureau/cutChart/a/propaganda.png" width="40%" style="display: flex; margin: 5% auto 0"/>
+            <img src="./assets/TaxBureau/cutChart/a/person.png" width="100vw" style="display: flex; margin-bottom: 0; margin-left: 0"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider2">
-          <p>
-          </p>
+          <div class="bounce" style="height:100vh; display: flex;flex-direction: column;">
+            <img src="./assets/TaxBureau/cutChart/b/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/b/icon1.png" width="4%" style="margin-left: 130px; margin-top: 160px"/>
+            <img src="./assets/TaxBureau/cutChart/b/icon2.png" width="4%" style="margin-left: 130px; margin-top: 55px"/>
+            <img src="./assets/TaxBureau/cutChart/b/icon3.png" width="4%" style="margin-left: 130px; margin-top: 55px"/>
+            <img src="./assets/TaxBureau/cutChart/b/person.png" width="100vw" style="position: absolute; bottom: 0"/>
+            <div style="flex:1;" >&nbsp;</div>
+            <img src="./assets/TaxBureau/cutChart/b/backDown.png" width="100%" style="margin-bottom: 0px"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider3">
-          <p>
-          </p>
+          <div style="display: flex;flex-direction: column;">
+            <img src="./assets/TaxBureau/cutChart/c/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/c/backBlue.png" width="40%" style="margin-left: 40px; margin-top: 74px"/>
+            <div style="margin-top: -25px; margin-left: 91px; font-weight: bold; font-size: 15px; color: #2d69ba">降税率</div>
+            <img src="./assets/TaxBureau/cutChart/c/person.png" width="18%" style="margin-top: 75px; margin-left: 275px;" />
+            <img src="./assets/TaxBureau/cutChart/c/arrow.png" width="21%" style="margin-top: -1px; margin-left: 168px;"/>
+            <img src="./assets/TaxBureau/cutChart/c/arrow.png" width="21%" style="margin-top: 21px; margin-left: 168px;"/>
+            <img src="./assets/TaxBureau/cutChart/c/backDown.png" width="50%" style="margin-top: 28px; margin-left: 187px;"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider4">
-          <p>
+          <div style="display: flex;flex-direction: column;">
 
-          </p>
+            <img src="./assets/TaxBureau/cutChart/d/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/d/back_blue.png" width="40%" style="margin-left: 40px; margin-top: 74px"/>
+            <div style="margin-top: -28px; margin-left: 85px; font-weight: bold; font-size: 15px; color: #2d69ba">降扣除税</div>
+            <img src="./assets/TaxBureau/cutChart/d/wheat.png" width="7%" style="margin-left: 143px; margin-top: 55px"/>
+            <img src="./assets/TaxBureau/cutChart/d/arrow.png" width="21%" style="margin-left: 160px; margin-top: 116px"/>
+            <img src="./assets/TaxBureau/cutChart/d/arrow.png" width="21%" style="margin-left: 160px; margin-top: 20px"/>
+            <img src="./assets/TaxBureau/cutChart/d/production.png" width="12.5%" style="margin-left: 55px; margin-top: -65px"/>
+            <img src="./assets/TaxBureau/cutChart/d/car.png" width="28.4%" style="margin-left: 185px; margin-top: 60px"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider5">
-          <p>
-
-          </p>
+          <div style="display: flex;flex-direction: column;">
+            <img src="./assets/TaxBureau/cutChart/e/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/e/backBlue.png" width="56.4%" style="margin-left: 40px; margin-top: 74px"/>
+            <div style="margin-top: -28px; margin-left: 85px; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>
+            <img src="./assets/TaxBureau/cutChart/e/ship.png" width="10.6%" style="margin-left: 280px; margin-top: 74px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="21%" style="margin-left: 165px; margin-top: 127px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="21%" style="margin-left: 165px; margin-top: 20px"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider6">
-          <p>
-
-          </p>
+          <div style="display: flex;flex-direction: column;">
+            <img src="./assets/TaxBureau/cutChart/f/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/f/backBlue.png" width="56.4%" style="margin-left: 40px; margin-top: 74px"/>
+            <div style="margin-top: -28px; margin-left: 85px; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>
+            <img src="./assets/TaxBureau/cutChart/f/bridge.png" width="46.66%" style="margin-left: 175px; margin-top: -40px"/>
+            <div style="margin-top: -18px; margin-left: 195px; font-weight: bold; font-size: 15px; color: #2d69ba">退税率调整过渡期内容</div>
+            <div style="flex: 1;">&nbsp;</div>
+            <img src="./assets/TaxBureau/cutChart/f/backDown.png" width="100%" style="margin-bottom: 0"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider7">
-          <p>
-
-          </p>
+          <div style="display: flex;flex-direction: column;">
+            <img src="assets/TaxBureau/cutChart/g/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/g/ship.png"  width="10.6%"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="21%"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="21%"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider8">
-          <p>
-
-          </p>
+          <div style="display: flex;flex-direction: column;">
+            <img src="./assets/TaxBureau/cutChart/h/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/h/backBlue.png" width="56.4%" style="margin-left: 40px; margin-top: 74px"/>
+            <img src="./assets/TaxBureau/cutChart/h/car.png" width="100vw"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider9">
-          <p>
+          <div style="display: flex;flex-direction: column;">
 
-          </p>
+            <img src="./assets/TaxBureau/cutChart/i/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/i/backBlue.png" width="40%" style="margin-left: 40px; margin-top: 74px"/>
+            <img src="./assets/TaxBureau/cutChart/i/disposable.png" width="100vw"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider10">
-          <p>
-
-          </p>
+          <div style="display: flex;flex-direction: column;">
+            <img src="./assets/TaxBureau/cutChart/j/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/j/ride.png" width="100vw"/>
+            <img src="./assets/TaxBureau/cutChart/j/provision.png" width="100vw"/>
+            <img src="./assets/TaxBureau/cutChart/j/offset.png" width="100vw"/>
+          </div>
         </section>
       </swiper-slide>
       <swiper-slide>
         <section  class="MySlider11">
-          <p>
-
-          </p>
+          <div style="display: flex;flex-direction: column;">
+            <img src="assets/TaxBureau/cutChart/k/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/k/back_words.png" width="100vw"/>
+            <img src="./assets/TaxBureau/cutChart/k/part.png" width="100vw"/>
+            <img src="./assets/TaxBureau/cutChart/k/all.png" width="100vw"/>
+            <img src="assets/TaxBureau/cutChart/k/backDown.png" width="100vw"/>
+          </div>
         </section>
       </swiper-slide>
       <!--<swiper-slide>I'm Slide 3</swiper-slide>-->
@@ -139,7 +187,7 @@ export default {
 
         direction: 'vertical',
         followFinger: false,
-        speed: 800,
+        speed: 0,  //停多久开始显示800
         mousewheel: true,
         pagination: {
           el: '.swiper-pagination'
@@ -199,61 +247,64 @@ export default {
   height: 100vh;
 }
   .MySlider1{
+    display: flex;
     height: 100vh;
     background-image: url("assets/TaxBureau/cutChart/a/back.png");
     background-size: 100%;
   }
 .MySlider2{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/b.png");
+  background-image: url("assets/TaxBureau/cutChart/b/backCenterText.png");
   background-size: 100%;
 }
 .MySlider3{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/c.png");
+  background-image: url("assets/TaxBureau/cutChart/c/words.png");
   background-size: 100%;
 }
 .MySlider4{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/d.png");
+  background-image: url("assets/TaxBureau/cutChart/d/back_words.png");
   background-size: 100%;
 }
 .MySlider5{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/e.png");
+  background-image: url("assets/TaxBureau/cutChart/e/back_words.png");
   background-size: 100%;
 }
 .MySlider6{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/f.png");
+  background-image: url("assets/TaxBureau/cutChart/f/back_words.png");
   background-size: 100%;
 }
 .MySlider7{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/g.png");
+  background-image: url("assets/TaxBureau/cutChart/g/back_words.png");
   background-size: 100%;
 }
 .MySlider8{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/h.png");
+  background-image: url("assets/TaxBureau/cutChart/h/back_words.png");
   background-size: 100%;
 }
 .MySlider9{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/i.png");
+  background-image: url("assets/TaxBureau/cutChart/i/back_words.png");
   background-size: 100%;
 }
 .MySlider10{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/j.png");
+  background-image: url("assets/TaxBureau/cutChart/j/back_words.png");
   background-size: 100%;
 }
 .MySlider11{
   height: 100vh;
-  background-image: url("assets/TaxBureau/layout/k.png");
+  /*background-image: url("assets/TaxBureau/cutChart/k/back_words.png");*/
   background-size: 100%;
 }
   .bounce{
+    /*height: 100vh;*/
+    /*line-height: 100%;*/
     /*background-color: red;*/
     /*-webkit-animation:bounce 2s infinite;*/
     animation: bounce 3s 3;
