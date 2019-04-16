@@ -35,10 +35,11 @@
             <img src="./assets/TaxBureau/cutChart/c/backUp.png" width="100%"/>
             <img src="./assets/TaxBureau/cutChart/c/backBlue.png" width="40%" style="margin-left: 40px; margin-top: 74px"/>
             <div style="margin-top: -25px; margin-left: 91px; font-weight: bold; font-size: 15px; color: #2d69ba">降税率</div>
-            <img src="./assets/TaxBureau/cutChart/c/person.png" width="18%" style="margin-top: 75px; margin-left: 275px;" />
-            <img src="./assets/TaxBureau/cutChart/c/arrow.png" width="21%" style="margin-top: -1px; margin-left: 168px;"/>
-            <img src="./assets/TaxBureau/cutChart/c/arrow.png" width="21%" style="margin-top: 21px; margin-left: 168px;"/>
-            <img src="./assets/TaxBureau/cutChart/c/backDown.png" width="50%" style="margin-top: 28px; margin-left: 187px;"/>
+            <img src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" style="margin-top: 123px; margin-left: 199px;"/>
+            <img src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" style="margin-top: 30px; margin-left: 199px;"/>
+            <img src="./assets/TaxBureau/cutChart/c/backDown.png" width="75%" style="margin-top: 118px; margin-left: 94px;"/>
+            <img src="./assets/TaxBureau/cutChart/c/person.png" width="21.07%" style="margin-top: -143px; margin-left: 257px;" />
+
           </div>
         </section>
       </swiper-slide>
@@ -49,11 +50,8 @@
             <img src="./assets/TaxBureau/cutChart/d/backUp.png" width="100%"/>
             <img src="./assets/TaxBureau/cutChart/d/back_blue.png" width="40%" style="margin-left: 40px; margin-top: 74px"/>
             <div style="margin-top: -28px; margin-left: 85px; font-weight: bold; font-size: 15px; color: #2d69ba">降扣除税</div>
-            <img src="./assets/TaxBureau/cutChart/d/wheat.png" width="7%" style="margin-left: 143px; margin-top: 55px"/>
-            <img src="./assets/TaxBureau/cutChart/d/arrow.png" width="21%" style="margin-left: 160px; margin-top: 116px"/>
-            <img src="./assets/TaxBureau/cutChart/d/arrow.png" width="21%" style="margin-left: 160px; margin-top: 20px"/>
-            <img src="./assets/TaxBureau/cutChart/d/production.png" width="12.5%" style="margin-left: 55px; margin-top: -65px"/>
-            <img src="./assets/TaxBureau/cutChart/d/car.png" width="28.4%" style="margin-left: 185px; margin-top: 60px"/>
+            <img src="./assets/TaxBureau/cutChart/d/arrow.png" width="14.8%" style="margin-left: 200px; margin-top: 153px"/>
+            <img src="./assets/TaxBureau/cutChart/d/car.png" width="40.4%" style="margin-left: 124px; margin-top: 145px"/>
           </div>
         </section>
       </swiper-slide>
@@ -63,9 +61,8 @@
             <img src="./assets/TaxBureau/cutChart/e/backUp.png" width="100%"/>
             <img src="./assets/TaxBureau/cutChart/e/backBlue.png" width="56.4%" style="margin-left: 40px; margin-top: 74px"/>
             <div style="margin-top: -28px; margin-left: 85px; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>
-            <img src="./assets/TaxBureau/cutChart/e/ship.png" width="10.6%" style="margin-left: 280px; margin-top: 74px"/>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="21%" style="margin-left: 165px; margin-top: 127px"/>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="21%" style="margin-left: 165px; margin-top: 20px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 200px; margin-top: 170px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 200px; margin-top: 30px"/>
           </div>
         </section>
       </swiper-slide>
@@ -88,9 +85,8 @@
             <img src="./assets/TaxBureau/cutChart/g/backUp.png" width="100%"/>
             <img src="./assets/TaxBureau/cutChart/f/backBlue.png" width="68.67%" style="margin-left: 40px; margin-top: 70px"/>
             <div style="margin-top: -31px; margin-left: 69px; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整离境退税物品退税率</div>
-            <img src="./assets/TaxBureau/cutChart/g/ship.png" width="10.6%" style="margin-top: 65px; margin-left: 300px"/>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="21%" style="margin-left: 168px; margin-top: 58px"/>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="21%" style="margin-left: 168px; margin-top: 20px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" style="margin-left: 197px; margin-top: 116px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" style="margin-left: 197px; margin-top: 30px"/>
           </div>
         </section>
       </swiper-slide>
@@ -118,10 +114,11 @@
         <section  class="MySlider10">
           <div style="display: flex;flex-direction: column;">
             <img src="./assets/TaxBureau/cutChart/j/backUp.png" width="100%"/>
-            <div style="margin-top: 88px; margin-left: 105px; font-weight: bold; font-size: 15px; color: #2d69ba">实施加计抵减</div>
-            <img src="./assets/TaxBureau/cutChart/j/ride.png" width="5.3%" style="margin-left: 95px; margin-top: 185px"/>
-            <img src="./assets/TaxBureau/cutChart/j/provision.png" width="13.73%" style="margin-left: 157px; margin-top: -26px"/>
-            <img src="./assets/TaxBureau/cutChart/j/offset.png" width="36.67%" style="margin-left: 210px; margin-top: -39px"/>
+            <img src="./assets/TaxBureau/cutChart/j/backBlue.png" width="38.93%" style="margin-top: 74px; margin-left: 77px"/>
+            <div style="margin-top: -27px; margin-left: 105px; font-weight: bold; font-size: 15px; color: #2d69ba">实施加计抵减</div>
+            <img src="./assets/TaxBureau/cutChart/j/ride.png" width="8.13%" style="margin-left: 60px; margin-top: 190px"/>
+            <img src="./assets/TaxBureau/cutChart/j/provision.png" width="16.13%" style="margin-left: 130px; margin-top: -50px"/>
+            <img src="./assets/TaxBureau/cutChart/j/offset.png" width="43.33%" style="margin-left: 195px; margin-top: -50px"/>
           </div>
         </section>
       </swiper-slide>
@@ -129,10 +126,17 @@
         <section  class="MySlider11">
           <div style="display: flex;flex-direction: column;">
             <img src="./assets/TaxBureau/cutChart/k/backUp.png" width="100%"/>
-            <img src="./assets/TaxBureau/cutChart/k/back_words.png" width="100%"/>
-            <img src="./assets/TaxBureau/cutChart/k/part.png" width="40%" style="margin-top: -30px"/>
-            <img src="./assets/TaxBureau/cutChart/k/all.png" width="50.6%" style="margin-top: -180px; margin-left: 160px"/>
-            <img src="./assets/TaxBureau/cutChart/k/backDown.png" width="100%"  style="margin-top: -80px"/>
+            <img src="./assets/TaxBureau/cutChart/k/button.png" width="44.53%" style="margin-left: 38px"/>
+            <img src="./assets/TaxBureau/cutChart/k/cloud.png" width="82.13%" style="margin: 26px auto 0"/>
+            <div style="margin: -27px auto; font-weight: bold; font-size: 15px; color: #2d69ba">所有行业试行增值税留抵退税制度</div>
+            <img src="./assets/TaxBureau/cutChart/k/rectangle.png" width="6.67%" style="margin-left: 153px; margin-top: 55px"/>
+            <div style="width: 20px; margin-top: -347px; margin-left: 158px; font-weight: bold; font-size: 15px; color: #fff">制度化</div>
+            <div style="width: 20px; margin-top: 10px; margin-left: 158px; font-weight: bold; font-size: 15px; color: #fff">规范化</div>
+            <img src="./assets/TaxBureau/cutChart/k/arrow_left.png" width="9.33%" style="margin-top: -24px; margin-left: 118px"/>
+            <img src="./assets/TaxBureau/cutChart/k/arrow_right.png" width="12.53%" style="margin-top: -83px; margin-left: 178px"/>
+            <img src="./assets/TaxBureau/cutChart/k/part.png" width="34.4%" style="margin-top: 15px; margin-left: 10px"/>
+            <img src="./assets/TaxBureau/cutChart/k/all.png" width="43.06%" style="margin-top: -260px; margin-left: 185px"/>
+            <img src="./assets/TaxBureau/cutChart/k/backDown.png" width="100%" />
           </div>
         </section>
       </swiper-slide>
