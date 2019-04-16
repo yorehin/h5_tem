@@ -40,7 +40,6 @@
           </div>
         </section>
       </swiper-slide>
-
       <swiper-slide>
         <section  class="MySlider3">
           <div style="display: flex;flex-direction: column;">
@@ -84,8 +83,8 @@
             <img src="./assets/TaxBureau/cutChart/f/backBlue.png" width="56.4%" style="margin-left: 40px; margin-top: 74px"/>
             <div style="margin-top: -28px; margin-left: 85px; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>
             <img src="./assets/TaxBureau/cutChart/f/red.png" width="28.8%" style="margin-left: 1.5%; margin-top: 79.9%"/>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 10%; margin-top: -30%"/>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 200px; margin-top: 30px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 53%; margin-top: -84%"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 53%; margin-top: 21%"/>
             <div style="flex: 1;">&nbsp;</div>
             <img src="./assets/TaxBureau/cutChart/f/backDown.png" width="100%" style="margin-bottom: 0"/>
           </div>
@@ -97,8 +96,8 @@
             <img src="./assets/TaxBureau/cutChart/g/backUp.png" width="100%"/>
             <img src="./assets/TaxBureau/cutChart/f/backBlue.png" width="68.67%" style="margin-left: 40px; margin-top: 70px"/>
             <div style="margin-top: -31px; margin-left: 69px; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整离境退税物品退税率</div>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" style="margin-left: 197px; margin-top: 116px"/>
-            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" style="margin-left: 197px; margin-top: 30px"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" style="margin-left: 53%; margin-top: 32%"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" style="margin-left: 53%; margin-top: 7%"/>
           </div>
         </section>
       </swiper-slide>
@@ -118,7 +117,10 @@
             <img src="./assets/TaxBureau/cutChart/i/backUp.png" width="100%"/>
             <img src="./assets/TaxBureau/cutChart/i/backBlue.png" width="56.4%" style="margin-left: 81px; margin-top: 74px"/>
             <div style="margin-top: -27px; margin-left: 104px; font-weight: bold; font-size: 15px; color: #2d69ba">允许不动产进项一次抵扣</div>
-            <img src="./assets/TaxBureau/cutChart/i/disposable.png" width="44.8%" style="margin-left: 168px; margin-top: 148px"/>
+            <img src="./assets/TaxBureau/cutChart/i/change.png" width="14.8%" style="margin-left: 53%; margin-top: 7%"/>
+            <img src="./assets/TaxBureau/cutChart/i/one.png" width="14.8%" style="margin-left: 53%; margin-top: 7%"/>
+            <div style="flex: 1;">&nbsp;</div>
+            <img src="./assets/TaxBureau/cutChart/i/backDown.png" width="100%" style="margin-bottom: 0"/>
           </div>
         </section>
       </swiper-slide>
@@ -335,6 +337,7 @@ export default {
   background-size: 100%;
 }
 .MySlider9{
+  display: flex;
   height: 100vh;
   background-image: url("assets/TaxBureau/cutChart/i/back_words.png");
   background-size: 100%;
