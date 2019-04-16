@@ -9,10 +9,21 @@
       <swiper-slide>
         <section  class="MySlider1"  style="background-color: blueviolet">
           <div class="bounce">
-            <img src="./assets/TaxBureau/cutChart/a/reform.png" width="78%" style="display: flex;margin: 20% auto 0;"/>
-            <img src="./assets/TaxBureau/cutChart/a/bulb.png" width="30%" style="display: flex; margin: 3% auto 0"/>
-            <img src="./assets/TaxBureau/cutChart/a/propaganda.png" width="40%" style="display: flex; margin: 5% auto 0"/>
+            <img src="./assets/TaxBureau/cutChart/a/reform.png" width="95%" style="display: flex;margin: 16.11% auto 0;"/>
+            <img src="./assets/TaxBureau/cutChart/a/bulb.png" width="33.33%" style="display: flex; margin: 9.67% auto 0"/>
+            <img src="./assets/TaxBureau/cutChart/a/propaganda.png" width="40%" style="display: flex; margin: 14.47% auto 0"/>
             <img src="./assets/TaxBureau/cutChart/a/person.png" width="100vw" style="position: absolute; bottom: 0"/>
+          </div>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider21">
+          <div class="bounce" style="height:100vh; display: flex;flex-direction: column;">
+            <img src="./assets/TaxBureau/cutChart/b/backUp.png" width="100%"/>
+            <img src="./assets/TaxBureau/cutChart/b/ball.png" width="71.73%" style="margin: 24.28% 0 0 18%"/>
+            <img src="./assets/TaxBureau/cutChart/b/person.png" width="100vw" style="position: absolute; bottom: 0"/>
+            <div style="flex:1;" >&nbsp;</div>
+            <img src="./assets/TaxBureau/cutChart/b/backDown.png" width="100%" style="margin-bottom: 0px"/>
           </div>
         </section>
       </swiper-slide>
@@ -29,6 +40,7 @@
           </div>
         </section>
       </swiper-slide>
+
       <swiper-slide>
         <section  class="MySlider3">
           <div style="display: flex;flex-direction: column;">
@@ -39,7 +51,6 @@
             <img src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" style="margin-top: 30px; margin-left: 199px;"/>
             <img src="./assets/TaxBureau/cutChart/c/backDown.png" width="75%" style="margin-top: 118px; margin-left: 94px;"/>
             <img src="./assets/TaxBureau/cutChart/c/person.png" width="21.07%" style="margin-top: -143px; margin-left: 257px;" />
-
           </div>
         </section>
       </swiper-slide>
@@ -72,8 +83,9 @@
             <img src="./assets/TaxBureau/cutChart/f/backUp.png" width="100%"/>
             <img src="./assets/TaxBureau/cutChart/f/backBlue.png" width="56.4%" style="margin-left: 40px; margin-top: 74px"/>
             <div style="margin-top: -28px; margin-left: 85px; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>
-            <img src="./assets/TaxBureau/cutChart/f/bridge.png" width="46.66%" style="margin-left: 175px; margin-top: -40px"/>
-            <div style="margin-top: -18px; margin-left: 195px; font-weight: bold; font-size: 15px; color: #2d69ba">退税率调整过渡期内容</div>
+            <img src="./assets/TaxBureau/cutChart/f/red.png" width="28.8%" style="margin-left: 1.5%; margin-top: 79.9%"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 10%; margin-top: -30%"/>
+            <img src="./assets/TaxBureau/cutChart/e/arrow.png"  width="14.8%" style="margin-left: 200px; margin-top: 30px"/>
             <div style="flex: 1;">&nbsp;</div>
             <img src="./assets/TaxBureau/cutChart/f/backDown.png" width="100%" style="margin-bottom: 0"/>
           </div>
@@ -156,6 +168,7 @@
 
 <script>
 import {swiper, swiperSlide} from 'vue-awesome-swiper'
+// import wx from 'index.html'
 // import one from 'components/TaxBureau/One'
 // import two from 'components/TaxBureau/Two'
 // import three from 'components/TaxBureau/Three'
@@ -227,6 +240,27 @@ export default {
   },
   mounted () {
     console.log(this.swiper + '杨丽宾')
+
+    // wx.config({
+    //   debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+    //   appId: '', // 必填，公众号的唯一标识
+    //   timestamp: 'now', // 必填，生成签名的时间戳
+    //   nonceStr: 'lli', // 必填，生成签名的随机串
+    //   signature: 'yangg', // 必填，签名
+    //   jsApiList: [] // 必填，需要使用的JS接口列表
+    // })
+    // wx.ready(function () {      //需在用户可能点击分享按钮前就先调用
+    //   wx.updateTimelineShareData({
+    //     title: '增值税改革亮点', // 分享标题
+    //     link: 'http://busih5.dayu1.net', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    //     imgUrl: './assets/TaxBureau/cutChart/a/bulb.png', // 分享图标
+    //     success: function () {
+    //       // 设置成功
+    //       console.log(this.link)
+    //     }
+    //   })
+    // })
+
     // this.swiper.slideTo(1, 1000, false)
   },
   methods: {
@@ -260,6 +294,11 @@ export default {
     background-image: url("assets/TaxBureau/cutChart/a/back.png");
     background-size: 100%;
   }
+.MySlider21{
+  height: 100vh;
+  /*background-image: url("assets/TaxBureau/cutChart/b/ball.png");*/
+  background-size: 100%;
+}
 .MySlider2{
   height: 100vh;
   background-image: url("assets/TaxBureau/cutChart/b/backCenterText.png");
