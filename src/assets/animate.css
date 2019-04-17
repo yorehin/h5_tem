@@ -296,6 +296,8 @@
   -webkit-animation-name: shake;
   animation-name: shake;
   animation-duration: 1.5s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
   /*animation-direction: 5s;*/
 }
 
@@ -678,6 +680,7 @@
   -webkit-transform-origin: center;
   transform-origin: center;
   animation-duration: 2s;
+  animation-delay: 3s;
 }
 
 @-webkit-keyframes heartBeat {
@@ -2388,6 +2391,7 @@
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
   animation-duration: 2s;
+  animation-delay: 1s;
 }
 
 @-webkit-keyframes rotateInDownLeft {
@@ -2946,8 +2950,6 @@
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
-
-
   }
 
   50% {
@@ -2971,6 +2973,40 @@
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
   animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes zoomIn1 {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn1 {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn1 {
+  -webkit-animation-name: zoomIn1;
+  animation-name: zoomIn1;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
 }
 
 @-webkit-keyframes zoomInDown {
@@ -3400,7 +3436,7 @@
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: 4s;
   animation-fill-mode: backwards;
 }
 
@@ -3411,6 +3447,35 @@
  /*transform-origin: 100% 0%;    表示右上角为参照点*/
 /*transform-origin: 50% 200%;    表示参照点x坐标是元素水平方向的中间，y坐标是从上边缘向下两倍于元素高度的地方。*/
 
+
+@-webkit-keyframes xiaoXue1 {
+  from {
+    transform: scaleX(0.5);
+    transform-origin: 0% 50%;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+}
+
+@keyframes xiaoXue1 {
+  from {
+    transform: scaleX(0.5);
+    transform-origin: 0% 50%;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+}
+
+.xiaoXue1{
+  animation-name: xiaoXue1;
+  animation-duration: 1.5s;
+  animation-delay: 3.5s;
+  animation-iteration-count: infinite;
+}
 
 
 
@@ -3441,7 +3506,7 @@
 .xiaoXue{
   animation-name: xiaoXue;
   animation-duration: 1.5s;
-  animation-delay: 1.5s;
+  animation-delay: 2.5s;
   animation-iteration-count: infinite;
 }
 
@@ -3509,6 +3574,8 @@
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp;
   animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
 
 @-webkit-keyframes slideOutDown {

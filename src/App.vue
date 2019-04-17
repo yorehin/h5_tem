@@ -142,8 +142,8 @@
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/i/backUp.png" width="100%"/>
               <img class="shake" src="./assets/TaxBureau/cutChart/i/backBlue.png" width="56.4%" style="margin-left: 8%; margin-top: 20%"/>
               <div class="shake" style="margin-top: -7%; margin-left: 14%; font-weight: bold; font-size: 15px; color: #2d69ba">允许不动产进项一次抵扣</div>
-              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/i/change.png"  width="14.8%" style="margin-left: 45%; margin-top: 43%"/>
-              <img class="zoomIn" src="./assets/TaxBureau/cutChart/i/one.png" width="29.73%" style="margin-left: 63%; margin-top: -17%"/>
+              <img class="xiaoXue1" src="./assets/TaxBureau/cutChart/i/change.png"  width="14.8%" style="margin-left: 45%; margin-top: 43%"/>
+              <img class="zoomIn1" src="./assets/TaxBureau/cutChart/i/one.png" width="29.73%" style="margin-left: 63%; margin-top: -17%"/>
               <div style="flex:1;" >&nbsp;</div>
               <img class="slideInUp" src="./assets/TaxBureau/cutChart/i/backDown.png" width="100%" style="margin-bottom: 0px"/>
             </template>
@@ -305,11 +305,9 @@ export default {
       head.appendChild(script);
     }
 
-    dynamicLoadJs("http://res.wx.qq.com/open/js/jweixin-1.4.0.js",()=>{
+    dynamicLoadJs("https://res.wx.qq.com/open/js/jweixin-1.4.0.js",()=>{
       bolosev.getSign({url:location.href}).then(res=>{
-        if (res.code==0)
-        {
-          wx.config(res.data);
+          wx.config(res);
           wx.ready(()=>{
             //需在用户可能点击分享按钮前就先调用
             wx.updateAppMessageShareData({
@@ -332,12 +330,6 @@ export default {
               }
             })
           });
-        }
-        else
-        {
-          console.log('----->>获取微信签名失败')
-          alert('获取签名失败')
-        }
       })
     })
 

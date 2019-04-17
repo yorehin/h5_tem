@@ -13,9 +13,9 @@ let baseURL
 
 // 配置开发环境和线上生产环境的切换
 if (process.env.NODE_ENV === 'development') {
-  baseURL = '/api/'
+  baseURL = '/'
 } else if (process.env.NODE_ENV === 'production') {
-  baseURL = '/api/'
+  baseURL = '/'
 }
 
 export {Domain, baseURL}
