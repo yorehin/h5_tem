@@ -110,6 +110,11 @@
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 0.5;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
@@ -151,6 +156,11 @@
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
+  animation-duration: 2s;
+  /*animation-fill-mode: forwards;*/
+  animation-fill-mode: backwards;
+
+  /*animation-delay: 1s;*/
 }
 
 @-webkit-keyframes rubberBand {
@@ -285,6 +295,8 @@
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake;
+  animation-duration: 1.5s;
+  /*animation-direction: 5s;*/
 }
 
 @-webkit-keyframes headShake {
@@ -569,6 +581,7 @@
 .wobble {
   -webkit-animation-name: wobble;
   animation-name: wobble;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes jello {
@@ -664,6 +677,7 @@
   animation-name: jello;
   -webkit-transform-origin: center;
   transform-origin: center;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes heartBeat {
@@ -905,6 +919,8 @@
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
+  /*animation-delay: 1s;*/
+  animation-duration: 3s  ;
 }
 
 @-webkit-keyframes bounceInLeft {
@@ -980,12 +996,17 @@
   to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    opacity: 1;
   }
 }
 
 .bounceInLeft {
   -webkit-animation-name: bounceInLeft;
   animation-name: bounceInLeft;
+  animation-duration: 1.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
 }
 
 @-webkit-keyframes bounceInRight {
@@ -1148,6 +1169,8 @@
 .bounceInUp {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
+  /*animation-delay: 1s;*/
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes bounceOut {
@@ -1376,6 +1399,8 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -2067,6 +2092,7 @@
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes flipInY {
@@ -2361,6 +2387,7 @@
 .rotateIn {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes rotateInDownLeft {
@@ -2919,6 +2946,8 @@
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
+
+
   }
 
   50% {
@@ -2941,6 +2970,7 @@
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes zoomInDown {
@@ -3337,6 +3367,7 @@
 .slideInDown {
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes slideInLeft {
@@ -3355,7 +3386,7 @@
 @keyframes slideInLeft {
   from {
     -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-160%, 0, 0);
     visibility: visible;
   }
 
@@ -3368,11 +3399,55 @@
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+/*（3）修改默认参照点。*/
+/*一般变换是以元素的中心点为参照点的。可以通过在应用变换前用 transform-origin 属性来移动这个参照点。*/
+/*比如：*/
+/*transform-origin: 0% 0%;    表示左上角为参照点*/
+ /*transform-origin: 100% 0%;    表示右上角为参照点*/
+/*transform-origin: 50% 200%;    表示参照点x坐标是元素水平方向的中间，y坐标是从上边缘向下两倍于元素高度的地方。*/
+
+
+
+
+
+
+@-webkit-keyframes xiaoXue {
+  from {
+    transform: scaleX(0.5);
+    transform-origin: 0% 50%;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+}
+
+@keyframes xiaoXue {
+  from {
+    transform: scaleX(0.5);
+    transform-origin: 0% 50%;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+}
+
+.xiaoXue{
+  animation-name: xiaoXue;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes slideInRight {
   from {
-    -webkit-transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(60%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
   }
@@ -3386,7 +3461,7 @@
 @keyframes slideInRight {
   from {
     -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(165%, 0, 0);
     visibility: visible;
   }
 
@@ -3399,6 +3474,9 @@
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
 
 @-webkit-keyframes slideInUp {
@@ -3430,6 +3508,7 @@
 .slideInUp {
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes slideOutDown {
