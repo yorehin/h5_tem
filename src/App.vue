@@ -40,7 +40,6 @@
           </div>
         </section>
       </swiper-slide>
-
       <swiper-slide>
         <section  class="MySlider3">
           <div style="display: flex;flex-direction: column;">
