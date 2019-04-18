@@ -9,13 +9,13 @@ const Domain = {
   hash: window.location.hash
 }
 
-let baseURL
+let baseURL = "https://busih5.dayu1.net"
 
 // 配置开发环境和线上生产环境的切换
 if (process.env.NODE_ENV === 'development') {
-  baseURL = '/'
+  baseURL += '/h5_tem_back/public/index.php/'
 } else if (process.env.NODE_ENV === 'production') {
-  baseURL = '/'
+  baseURL += '/h5_tem_back/public/index.php/'
 }
 
 export {Domain, baseURL}

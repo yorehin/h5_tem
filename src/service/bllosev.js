@@ -3,7 +3,7 @@ import axios from 'axios'
 import {getParams} from '../components/common/Util'
 
 // 查询市场列表 用来查询市场中的菠萝列表，包括类型、筛选、排序、分页等，目前仅支持类型中的所有，其余暂不支持。
-const getSign = baseURL + 'public/getSign'
+const getSign = baseURL + 'getSign'
 
 export default {
   getSign(params) {
