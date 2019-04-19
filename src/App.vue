@@ -321,7 +321,7 @@ export default {
     }
 
     dynamicLoadJs("https://res.wx.qq.com/open/js/jweixin-1.4.0.js",()=>{
-      bolosev.getSign({url:'https://busihh.dayu1.net'}).then(res=>{
+      bolosev.getSign({url: encodeURIComponent(location.href.split('#')[0])}).then(res=>{
           console.log('----->>',res,wx)
           wx.config(res);
           wx.error(function(res){
@@ -342,7 +342,7 @@ export default {
             })
             wx.onMenuShareTimeline({
               title: '增值税改革亮点', // 分享标题
-              link: res.url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+              link: 'https://busihh.dayu1.net', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
               imgUrl: 'https://busihh.dayu1.net/logo.jpg', // 分享图标
               success: function () {
                 // 设置成功
