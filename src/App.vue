@@ -4,6 +4,13 @@
     <!--<router-view/>-->
   <!--</div>-->
   <div class="h5Page">
+    <!--<div class="swiper-button-next" @click="close"></div>-->
+    <div class="audio">
+        <!--隐藏audio标签-->
+      <audio loop autoplay="autoplay" id="music1" hidden="true" src="../static/Cavalcadin.mp3">
+         <!--<source >-->
+      </audio>
+    </div>
     <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback">
       <!-- slides -->
       <swiper-slide>
@@ -62,26 +69,26 @@
           </div>
         </section>
       </swiper-slide>
-      <!--<swiper-slide>-->
-        <!--<section  class="MySlider3">-->
-          <!--<div style="height:100vh; display: flex;flex-direction: column;">-->
-            <!--<template v-if="c_index==3">-->
-              <!--<img class="slideInDown" src="./assets/TaxBureau/cutChart/c/backUp.png" width="100%" height="17.77%"/>-->
-              <!--<img class="shake" src="./assets/TaxBureau/cutChart/c/backBlue.png" width="40%" height="5.92%" style="position: absolute; left: 10%; top: 29%"/>-->
-              <!--<div class="shake" style="position: absolute; top: 30.5%; left: 24%; font-weight: bold; font-size: 15px; color: #2d69ba">降税率</div>-->
-              <!--<img class="xiaoXue" src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" height="5.17%" style="position: absolute; top: 52%; left: 53%;"/>-->
-              <!--<img class="xiaoXue" src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" height="5.17%" style="position: absolute; top: 62%; left: 53%;"/>-->
-              <!--<div style="flex:1;" >&nbsp;</div>-->
-              <!--<img src="./assets/TaxBureau/cutChart/c/person.png" width="20.93%" height="17.92%" style="position: absolute; z-index:1; bottom: 6%; left: 65%" />-->
-              <!--<img class="slideInUp" src="./assets/TaxBureau/cutChart/c/backDown.png" width="100%" height="17.39%" style="position: absolute; right: 0; bottom: 0"/>-->
-            <!--</template>-->
-          <!--</div>-->
-        <!--</section>-->
-      <!--</swiper-slide>-->
+      <swiper-slide>
+        <section  class="MySlider3">
+          <div style="height:100vh; display: flex;flex-direction: column;">
+            <template v-if="c_index==3">
+              <img class="slideInDown" src="./assets/TaxBureau/cutChart/c/backUp.png" width="100%" height="17.77%"/>
+              <img class="shake" src="./assets/TaxBureau/cutChart/c/backBlue.png" width="40%" height="5.92%" style="position: absolute; left: 10%; top: 29%"/>
+              <div class="shake" style="position: absolute; top: 30.5%; left: 24%; font-weight: bold; font-size: 15px; color: #2d69ba">降税率</div>
+              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" height="5.17%" style="position: absolute; top: 52%; left: 53%;"/>
+              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" height="5.17%" style="position: absolute; top: 62%; left: 53%;"/>
+              <div style="flex:1;" >&nbsp;</div>
+              <img src="./assets/TaxBureau/cutChart/c/person.png" width="20.93%" height="17.92%" style="position: absolute; z-index:1; bottom: 6%; left: 65%" />
+              <img class="slideInUp" src="./assets/TaxBureau/cutChart/c/backDown.png" width="100%" height="17.39%" style="position: absolute; right: 0; bottom: 0"/>
+            </template>
+          </div>
+        </section>
+      </swiper-slide>
       <swiper-slide>
         <section  class="MySlider4">
           <div style="height:100vh; display: flex;flex-direction: column;">
-            <template v-if="c_index==3">
+            <template v-if="c_index==4">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/d/backUp.png" width="100%" height="17.77%"/>
               <img class="shake" src="./assets/TaxBureau/cutChart/d/back_blue.png" width="40%" height="5.92%" style="position: absolute; left: 10%; top: 29%"/>
               <div class="shake" style="position: absolute; top: 31%; left: 22%; font-weight: bold; font-size: 15px; color: #2d69ba">降扣除税</div>
@@ -91,19 +98,19 @@
           </div>
         </section>
       </swiper-slide>
-      <swiper-slide>
-        <section  class="MySlider5">
-          <div style="height:100vh; display: flex;flex-direction: column;">
-            <template v-if="c_index==4">
-              <img class="slideInDown" src="./assets/TaxBureau/cutChart/e/backUp.png" width="100%" height="17.77%"/>
-              <img class="shake" src="./assets/TaxBureau/cutChart/e/backBlue.png" width="56.4%" height="5.92%" style="position: absolute; left: 10%; top: 29%"/>
-              <div class="shake" style="position: absolute; top: 31%; left: 20%; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>
-              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 53%; top: 58%"/>
-              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 53%; top: 68%"/>
-            </template>
-          </div>
-        </section>
-      </swiper-slide>
+      <!--<swiper-slide>-->
+        <!--<section  class="MySlider5">-->
+          <!--<div style="height:100vh; display: flex;flex-direction: column;">-->
+            <!--<template v-if="c_index==4">-->
+              <!--<img class="slideInDown" src="./assets/TaxBureau/cutChart/e/backUp.png" width="100%" height="17.77%"/>-->
+              <!--<img class="shake" src="./assets/TaxBureau/cutChart/e/backBlue.png" width="56.4%" height="5.92%" style="position: absolute; left: 10%; top: 29%"/>-->
+              <!--<div class="shake" style="position: absolute; top: 31%; left: 20%; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>-->
+              <!--<img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 53%; top: 58%"/>-->
+              <!--<img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 53%; top: 68%"/>-->
+            <!--</template>-->
+          <!--</div>-->
+        <!--</section>-->
+      <!--</swiper-slide>-->
       <swiper-slide>
         <section  class="MySlider6">
           <div style="display: flex;flex-direction: column; height: 100vh">
@@ -217,6 +224,7 @@
 <script>
 import {swiper, swiperSlide} from 'vue-awesome-swiper'
 import bolosev from './service/bllosev'
+
 // import one from 'components/TaxBureau/One'
 // import two from 'components/TaxBureau/Two'
 // import three from 'components/TaxBureau/Three'
@@ -297,6 +305,8 @@ export default {
     }
   },
   mounted () {
+    console.log(this.swiper + '杨丽宾1')
+    this.close()
     console.log(this.swiper + '杨丽宾')
 
     /**
@@ -319,7 +329,7 @@ export default {
       }
       head.appendChild(script);
     }
-
+    let _this = this
     dynamicLoadJs("https://res.wx.qq.com/open/js/jweixin-1.4.0.js",()=>{
       bolosev.getSign({url: encodeURIComponent(location.href.split('#')[0])}).then(res=>{
           console.log('----->>',res,wx)
@@ -328,6 +338,7 @@ export default {
             alert(JSON.stringify(res))
           });
           wx.ready(()=>{
+            _this.close()
 //            alert('ready')
             //需在用户可能点击分享按钮前就先调用
             wx.onMenuShareAppMessage({
@@ -359,9 +370,18 @@ export default {
     // this.swiper.slideTo(1, 1000, false)
   },
   methods: {
-    callback () {
-
+    close() {
+      var audio = document.getElementById('music1');
+      if (audio.paused) {
+        audio.play();  // 播放
+        audio.setAttribute('loop','loop');
+      } else {
+        audio.pause();// 暂停
+      }
     }
+    // callback () {
+    //
+    // }
   }
 }
 </script>
