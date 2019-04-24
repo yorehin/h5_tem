@@ -7,7 +7,7 @@
     <!--<div class="swiper-button-next" @click="close"></div>-->
     <div class="audio">
         <!--隐藏audio标签-->
-      <audio loop autoplay="autoplay" id="music1" hidden="true" src="../static/Cavalcadin.mp3">
+      <audio controls autoplay="autoplay" id="music1" hidden="true" src="../static/Cavalcadin.mp3">
          <!--<source >-->
       </audio>
     </div>
@@ -305,8 +305,15 @@ export default {
     }
   },
   mounted () {
+    let u = navigator.userAgent;
+    let isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    // alert(isIOS)
+    if (!isIOS) {
+      // 这个是ios操作系统
+      this.close()
+    }
     console.log(this.swiper + '杨丽宾1')
-    this.close()
+    // this.close()
     console.log(this.swiper + '杨丽宾')
 
     /**
@@ -338,7 +345,8 @@ export default {
             alert(JSON.stringify(res))
           });
           wx.ready(()=>{
-            _this.close()
+            if (isIOS)
+              _this.close()
 //            alert('ready')
             //需在用户可能点击分享按钮前就先调用
             wx.onMenuShareAppMessage({
