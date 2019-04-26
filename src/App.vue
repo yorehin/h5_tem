@@ -120,7 +120,7 @@
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/f/backUp.png" width="100%" height="9.67%"/>
               <img class="shake" src="./assets/TaxBureau/cutChart/f/backBlue.png" width="66.26%" height="6.9%" style="position: absolute; left: 10%; top: 18.5%"/>
               <div class="shake" style="position: absolute; top: 20%; left: 17%; font-weight: bold; font-size: 20px; color: #2d69ba">同步调整出口退税率</div>
-              <img src="./assets/TaxBureau/cutChart/f/back_words.png" width="95.33%"/>
+              <!--<img src="./assets/TaxBureau/cutChart/f/back_words.png" width="84.4%" height="95.33%"/>-->
               <!--<img src="./assets/TaxBureau/cutChart/f/red.png" width="28.8%" height="10.87%" style="position: absolute; left: 1.5%; top: 70%"/>-->
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 33.5%"/>
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 50.5%"/>
@@ -449,7 +449,7 @@ export default {
   /*height: 100vh;*/
   /*margin-left: 10%;*/
   /*margin-top: 10%;*/
-  /*background-image: url("assets/TaxBureau/cutChart/f/back_words.png");*/
+  background-image: url("assets/TaxBureau/cutChart/f/back_words.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
