@@ -15,13 +15,14 @@
       <!-- slides -->
       <swiper-slide>
         <section class="MySlider1">
-          <div>
+          <div style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==0">
-              <img class="fadeIn" src="./assets/TaxBureau/cutChart/a/backUp.png" width="100%" height="17.77%"/>
-              <img class="zoomIn2" src="./assets/TaxBureau/cutChart/a/reform.png" width="95%" height="25.26%" style="display: flex;margin: -14.89% auto 0;"/>
-              <img class="flash" src="./assets/TaxBureau/cutChart/a/bulb.png" width="33.33%" height="20.99%" style="display: flex; margin: 9.67% auto 0"/>
-              <img src="./assets/TaxBureau/cutChart/a/propaganda.png" width="38.13%" height="7.42%" style="display: flex; margin: 14.47% auto 0"/>
-              <img class="bounceInLeft" src="./assets/TaxBureau/cutChart/a/person.png" width="27.87%" height="34.18%" style="position: absolute; bottom: 0"/>
+              <img class="slideInDown" src="./assets/TaxBureau/cutChart/a/backUp.png" width="100%" height="12.67%"/>
+              <img class="flash" src="./assets/TaxBureau/cutChart/a/bird.png" width="27.73%" height="17.99%" style="display: flex; margin-top: -16.33%; margin-left: 20%"/>
+              <img class="zoomIn2" src="./assets/TaxBureau/cutChart/a/reform.png" width="77.87%" height="29.46%" style="display: flex;margin: 10.11% auto 0;"/>
+              <img class="bounceInLeft" src="./assets/TaxBureau/cutChart/a/person.png" width="27.87%" height="34.18%" style="z-index: 1; position: absolute; bottom: 5%; left: 5%"/>
+              <div style="flex:1;" >&nbsp;</div>
+              <img class="slideInUp" src="./assets/TaxBureau/cutChart/a/backDown.png" width="100%" height="15.22%" style="z-index: 0; margin-bottom: 0"/>
             </template>
           </div>
         </section>
@@ -122,8 +123,8 @@
               <div class="shake" style="position: absolute; top: 20%; left: 17%; font-weight: bold; font-size: 20px; color: #2d69ba">同步调整出口退税率</div>
               <!--<img src="./assets/TaxBureau/cutChart/f/back_words.png" width="84.4%" height="95.33%"/>-->
               <!--<img src="./assets/TaxBureau/cutChart/f/red.png" width="28.8%" height="10.87%" style="position: absolute; left: 1.5%; top: 70%"/>-->
-              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 33.5%"/>
-              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 50.5%"/>
+              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 35.5%"/>
+              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 51.5%"/>
               <div style="flex: 1;">&nbsp;</div>
               <img class="slideInUp" src="./assets/TaxBureau/cutChart/f/backDown.png" width="100%" height="5.69%" style="margin-bottom: 0"/>
             </template>
@@ -192,7 +193,7 @@
         <section  class="MySlider11">
           <div style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==10">
-              <img class="slideInDown" src="./assets/TaxBureau/cutChart/k/backUp.png" width="100%" height="17.77%"/>
+              <img class="slideInDown" src="./assets/TaxBureau/cutChart/k/backUp.png" width="100%" height="12.67%"/>
               <!--<img src="./assets/TaxBureau/cutChart/k/button.png" width="44.44%" height="6.3%" style="margin-left: 10%"/>-->
               <img class="shake" src="./assets/TaxBureau/cutChart/k/cloud.png" width="87.6%" height="6.75%" style="position: absolute; left: 7%; top: 28.5%"/>
               <div class="shake" style="position: absolute; top: 30.5%; left: 14%; font-weight: bold; font-size: 17.5px; color: #2d69ba">所有行业试行增值税留抵退税制度</div>
@@ -205,6 +206,20 @@
               <!--<img src="./assets/TaxBureau/cutChart/k/all.png" width="43.06%" height="48.95%" style="position: absolute; top: 38%; left: 54%"/>-->
               <div style="flex:1;" >&nbsp;</div>
               <img class="slideInUp" src="./assets/TaxBureau/cutChart/k/backDown.png" width="100%" height="18.36%" style="margin-bottom: 0px"/>
+            </template>
+          </div>
+        </section>
+      </swiper-slide>
+      <swiper-slide>
+        <section  class="MySlider12">
+          <div style="height:100vh; display: flex;flex-direction: column;">
+            <template v-if="c_index==11">
+              <img src="./assets/TaxBureau/cutChart/l/backUp.png" width="100%" height="17.77%"/>
+              <!--<img src="./assets/TaxBureau/cutChart/k/button.png" width="44.44%" height="6.3%" style="margin-left: 10%"/>-->
+              <img src="./assets/TaxBureau/cutChart/l/bird.png" width="27.73%" height="17.99%" style="display: flex; margin-top: -16.33%; margin-left: 20%"/>
+              <img src="./assets/TaxBureau/cutChart/l/logo.png" width="36.93%" height="15.82%" style="display: flex; margin-top: -2.33%; margin-left: 31%"/>
+              <img src="./assets/TaxBureau/cutChart/a/propaganda.png" width="65.2%" height="11.09%" style="display: flex; margin: 29.47% auto 0"/>
+              <!--<div style="flex:1;" >&nbsp;</div>-->
             </template>
           </div>
         </section>
@@ -477,6 +492,12 @@ export default {
 .MySlider11{
   height: 100vh;
   background-image: url("assets/TaxBureau/cutChart/k/back_words.png");
+  background-size: 100% 100%;
+}
+.MySlider12{
+  display: flex;
+  height: 100vh;
+  background-image: url("assets/TaxBureau/cutChart/l/back.png");
   background-size: 100% 100%;
 }
   .bounce{
