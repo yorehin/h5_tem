@@ -31,7 +31,8 @@
           <div style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==1" >
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/b/backUp.png" width="100%" height="17.77%"/>
-              <img class="fadeIn" src="./assets/TaxBureau/cutChart/b/ball.png" style="height: 40.18%; width: 71.87%; margin: 24.28% 0 0 18%"/>
+              <!--<img class="fadeIn" src="./assets/TaxBureau/cutChart/b/ball.png" style=" z-index:1;height: 40.18%; width: 71.87%; margin: 24.28% 0 0 18%">-->
+              <!--<div style=" font-size:94%;height: 40.18%; width: 61.86%; margin: -63.72% 0 0 25%;z-index: 2; line-height: 170%">2019年3月21日，财政部、税务总局、海关总署联合发布《关于深化增值税改革有关政策的公告》。我国自2019年4月1日起下调增值税税率，购进农产品扣除率及出口退税率等也相应调整。</div>-->
               <img class="bounceInLeft" src="./assets/TaxBureau/cutChart/b/person.png" width="27.87%" height="34.18%"  style="z-index:1; position: absolute; bottom: 0"/>
               <div style="flex:1;" >&nbsp;</div>
               <img class="slideInUp" src="./assets/TaxBureau/cutChart/b/backDown.png" width="100%" height="8.62%" style="margin-bottom: 0px"/>
@@ -59,9 +60,10 @@
           <div  style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==2">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/b/backUp.png" width="100%" height="17.77%"/>
-              <img src="./assets/TaxBureau/cutChart/b/icon1.png" width="5.6%" height="4.5%" style="position: absolute; left: 33%; top: 42%"/>
-              <img class="pulse" src="./assets/TaxBureau/cutChart/b/icon2.png" width="6.66%" height="3.75%" style="position: absolute; left: 33%; top: 53%"/>
-              <img src="./assets/TaxBureau/cutChart/b/icon3.png" width="8%" height="4.1%" style="position: absolute; left: 33%; top: 63%"/>
+              <!--<img src="./assets/TaxBureau/cutChart/b/icon1.png" width="5.6%" height="4.5%" style="position: absolute; left: 33%; top: 42%"/>-->
+              <!--<img class="pulse" src="./assets/TaxBureau/cutChart/b/icon2.png" width="6.66%" height="3.75%" style="position: absolute; left: 33%; top: 53%"/>-->
+              <!--<img src="./assets/TaxBureau/cutChart/b/icon3.png" width="8%" height="4.1%" style="position: absolute; left: 33%; top: 63%"/>-->
+              <!--<div style="font-size: 100%; margin-top: 50%; margin-left: 50%; line-height: 150%" >降“四率”<br>扩“抵扣”<br>退“留抵”</div>-->
               <img class="bounceInLeft" src="./assets/TaxBureau/cutChart/b/person.png" width="27.87%" height="34.18%"  style="z-index:1; position: absolute; bottom: 0"/>
               <div style="flex:1;" >&nbsp;</div>
               <img class="slideInUp" src="./assets/TaxBureau/cutChart/b/backDown.png" width="100%" height="8.62%" style="margin-bottom: 0px"/>
@@ -75,12 +77,12 @@
             <template v-if="c_index==3">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/c/backUp.png" width="100%" height="17.77%"/>
               <img class="shake" src="./assets/TaxBureau/cutChart/c/backBlue.png" width="40%" height="5.92%" style="position: absolute; left: 10%; top: 29%"/>
-              <div class="shake" style="position: absolute; top: 30.5%; left: 24%; font-weight: bold; font-size: 15px; color: #2d69ba">降税率</div>
+              <div class="shake" style="position: absolute; top: 30.5%; left: 21%; font-weight: bold; font-size: 20px; color: #2d69ba">降税率</div>
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" height="5.17%" style="position: absolute; top: 52%; left: 53%;"/>
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/c/arrow.png" width="14.8%" height="5.17%" style="position: absolute; top: 62%; left: 53%;"/>
               <div style="flex:1;" >&nbsp;</div>
               <img src="./assets/TaxBureau/cutChart/c/person.png" width="20.93%" height="17.92%" style="position: absolute; z-index:1; bottom: 6%; left: 65%" />
-              <img class="slideInUp" src="./assets/TaxBureau/cutChart/c/backDown.png" width="100%" height="17.39%" style="position: absolute; right: 0; bottom: 0"/>
+              <img class="slideInUp" src="./assets/TaxBureau/cutChart/c/backDown.png" width="100%" height="17.39%" style="z-index: 0; position: absolute; right: 0; bottom: 0"/>
             </template>
           </div>
         </section>
@@ -91,7 +93,7 @@
             <template v-if="c_index==4">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/d/backUp.png" width="100%" height="17.77%"/>
               <img class="shake" src="./assets/TaxBureau/cutChart/d/back_blue.png" width="40%" height="5.92%" style="position: absolute; left: 10%; top: 29%"/>
-              <div class="shake" style="position: absolute; top: 31%; left: 22%; font-weight: bold; font-size: 15px; color: #2d69ba">降扣除税</div>
+              <div class="shake" style="position: absolute; top: 30.3%; left: 18%; font-weight: bold; font-size: 20px; color: #2d69ba">降扣除率</div>
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/d/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 53%; top: 56%"/>
               <img class="slideInRight" src="./assets/TaxBureau/cutChart/d/car.png" width="40.4%" height="14.99%" style="position: absolute; left: 33%; top: 83%"/>
             </template>
@@ -113,12 +115,13 @@
       <!--</swiper-slide>-->
       <swiper-slide>
         <section  class="MySlider6">
-          <div style="display: flex;flex-direction: column; height: 100vh">
+          <div style="display: flex;flex-direction: column; justify-content: center; align-items: center; height: 100vh">
             <template v-if="c_index==5">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/f/backUp.png" width="100%" height="9.67%"/>
-              <img class="shake" src="./assets/TaxBureau/cutChart/f/backBlue.png" width="56.4%" height="5.92%" style="position: absolute; left: 10%; top: 19.5%"/>
-              <div class="shake" style="position: absolute; top: 21.5%; left: 22%; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整出口退税率</div>
-              <img src="./assets/TaxBureau/cutChart/f/red.png" width="28.8%" height="10.87%" style="position: absolute; left: 1.5%; top: 70%"/>
+              <img class="shake" src="./assets/TaxBureau/cutChart/f/backBlue.png" width="66.26%" height="6.9%" style="position: absolute; left: 10%; top: 18.5%"/>
+              <div class="shake" style="position: absolute; top: 20%; left: 17%; font-weight: bold; font-size: 20px; color: #2d69ba">同步调整出口退税率</div>
+              <img src="./assets/TaxBureau/cutChart/f/back_words.png" width="95.33%"/>
+              <!--<img src="./assets/TaxBureau/cutChart/f/red.png" width="28.8%" height="10.87%" style="position: absolute; left: 1.5%; top: 70%"/>-->
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 33.5%"/>
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 52%; top: 50.5%"/>
               <div style="flex: 1;">&nbsp;</div>
@@ -133,7 +136,7 @@
             <template v-if="c_index==6">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/g/backUp.png" width="100%" height="17.77%"/>
               <img class="shake" src="./assets/TaxBureau/cutChart/f/backBlue.png" width="68.53%" height="5.92%" style="position: absolute; left: 10.5%; top: 29%"/>
-              <div class="shake" style="position: absolute; top: 31%; left: 18%; font-weight: bold; font-size: 15px; color: #2d69ba">同步调整离境退税物品退税率</div>
+              <div class="shake" style="position: absolute; top: 30.5%; left: 16%; font-weight: bold; font-size: 16px; color: #2d69ba">同步调整离境退税物品退税率</div>
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 53%; top: 51%"/>
               <img class="xiaoXue" src="./assets/TaxBureau/cutChart/e/arrow.png" width="14.8%" height="5.17%" style="position: absolute; left: 53%; top: 61%"/>
             </template>
@@ -145,8 +148,8 @@
           <div style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==7">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/h/backUp.png" width="100%" height="17.77%"/>
-              <img class="shake" src="./assets/TaxBureau/cutChart/h/backBlue.png" width="50%" height="5.92%" style="position: absolute; left: 12.5%; top:29.5%"/>
-              <div class="shake" style="position: absolute; top: 31%; left: 19%; font-weight: bold; font-size: 15px; color: #2d69ba">扩大进项税抵扣范围</div>
+              <img class="shake" src="./assets/TaxBureau/cutChart/h/backBlue.png" width="70%" height="7.87%" style="position: absolute; left: 10.5%; top:28.5%"/>
+              <div class="shake" style="position: absolute; top: 31%; left: 19%; font-weight: bold; font-size: 20px; color: #2d69ba">扩大进项税抵扣范围</div>
               <img class="slideInLeft" src="./assets/TaxBureau/cutChart/h/car.png" width="48.53%" height="15.37%" style="position: absolute; top: 75%; left: 26%"/>
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/h/backOne.png" width="29.73%" style="position: absolute; top: 6%; left: 30%"/>
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/h/backTwo.png" width="18.27%" style="position: absolute; top: 6%; left: 75%"/>
@@ -161,8 +164,8 @@
           <div style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==8">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/i/backUp.png" width="100%" height="17.77%"/>
-              <img class="shake" src="./assets/TaxBureau/cutChart/i/backBlue.png" width="58.66%" height="5.92%" style="position: absolute; left: 8%; top: 29%"/>
-              <div class="shake" style="position: absolute; top: 31%; left: 16%; font-weight: bold; font-size: 15px; color: #2d69ba">允许不动产进项一次抵扣</div>
+              <img class="shake" src="./assets/TaxBureau/cutChart/i/backBlue.png" width="78%" height="6.6%" style="position: absolute; left: 8%; top: 29%"/>
+              <div class="shake" style="position: absolute; top: 30.5%; left: 16%; font-weight: bold; font-size: 20px; color: #2d69ba">允许不动产进项一次抵扣</div>
               <img class="xiaoXue1" src="./assets/TaxBureau/cutChart/i/change.png" width="14.8%" height="5.17%" style="position: absolute; left: 45%; top: 57%"/>
               <img class="zoomIn1" src="./assets/TaxBureau/cutChart/i/one.png" width="29.73%" height="13.94%" style="position: absolute; left: 63%; top: 52.5%"/>
               <div style="flex:1;" >&nbsp;</div>
@@ -176,11 +179,11 @@
           <div style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==9">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/j/backUp.png" width="100%" height="17.77%"/>
-              <img class="shake" src="./assets/TaxBureau/cutChart/j/backBlue.png" width="38.93%" height="5.92%" style="position: absolute; top: 29%; left: 20%"/>
-              <div class="shake" style="position: absolute; top: 31%; left: 28%; font-weight: bold; font-size: 15px; color: #2d69ba">实施加计抵减</div>
-              <img class="rotateIn" src="./assets/TaxBureau/cutChart/j/ride.png" width="6.93%" height="3.9%" style="position: absolute; left: 16%; top: 62%"/>
-              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/j/provision.png" width="16.13%" height="5.84%" style="position: absolute; left: 35%; top: 58%"/>
-              <img src="./assets/TaxBureau/cutChart/j/offset.png" width="43.33%" height="8.25%" style="position: absolute; left: 53%; top: 56%"/>
+              <img class="shake" src="./assets/TaxBureau/cutChart/j/backBlue.png" width="44.67%" height="6.75%" style="position: absolute; top: 29%; left: 18%"/>
+              <div class="shake" style="position: absolute; top: 31%; left: 24%; font-weight: bold; font-size: 20px; color: #2d69ba">实施加计抵减</div>
+              <img class="rotateIn" src="./assets/TaxBureau/cutChart/j/ride.png" width="6.93%" height="3.9%" style="position: absolute; left: 16%; top: 67%"/>
+              <img class="xiaoXue" src="./assets/TaxBureau/cutChart/j/provision.png" width="16.13%" height="5.84%" style="position: absolute; left: 35%; top: 63%"/>
+              <!--<img src="./assets/TaxBureau/cutChart/j/offset.png" width="43.33%" height="8.25%" style="position: absolute; left: 53%; top: 56%"/>-->
             </template>
           </div>
         </section>
@@ -190,16 +193,16 @@
           <div style="height:100vh; display: flex;flex-direction: column;">
             <template v-if="c_index==10">
               <img class="slideInDown" src="./assets/TaxBureau/cutChart/k/backUp.png" width="100%" height="17.77%"/>
-              <img src="./assets/TaxBureau/cutChart/k/button.png" width="44.44%" height="6.3%" style="margin-left: 10%"/>
-              <img class="shake" src="./assets/TaxBureau/cutChart/k/cloud.png" width="82.13%" height="6.37%" style="position: absolute; left: 10%; top: 28.5%"/>
-              <div class="shake" style="position: absolute; top: 30.5%; left: 20%; font-weight: bold; font-size: 15px; color: #2d69ba">所有行业试行增值税留抵退税制度</div>
-              <img src="./assets/TaxBureau/cutChart/k/rectangle.png" width="6.67%" height="53.9%" style="position: absolute; left: 42%; top: 37%"/>
-              <div style="position: absolute; width: 20px; top: 39%; left: 43.5%; font-weight: bold; font-size: 15px; color: #fff">制度化</div>
-              <div style="position: absolute; width: 20px; top: 49%; left: 43.5%; font-weight: bold; font-size: 15px; color: #fff">规范化</div>
-              <img src="./assets/TaxBureau/cutChart/k/arrow_left.png" width="11.33%" height="3.97%" style="position: absolute; top: 52%; left: 30.7%"/>
-              <img src="./assets/TaxBureau/cutChart/k/arrow_right.png" width="17.33%" height="4.57%" style="position: absolute; top: 40%; left: 48.5%"/>
-              <img src="./assets/TaxBureau/cutChart/k/part.png" width="34.4%" height="30.28%" style="position: absolute; top: 48.5%; left: 1.5%"/>
-              <img src="./assets/TaxBureau/cutChart/k/all.png" width="43.06%" height="48.95%" style="position: absolute; top: 38%; left: 54%"/>
+              <!--<img src="./assets/TaxBureau/cutChart/k/button.png" width="44.44%" height="6.3%" style="margin-left: 10%"/>-->
+              <img class="shake" src="./assets/TaxBureau/cutChart/k/cloud.png" width="87.6%" height="6.75%" style="position: absolute; left: 7%; top: 28.5%"/>
+              <div class="shake" style="position: absolute; top: 30.5%; left: 14%; font-weight: bold; font-size: 17.5px; color: #2d69ba">所有行业试行增值税留抵退税制度</div>
+              <!--<img src="./assets/TaxBureau/cutChart/k/rectangle.png" width="6.67%" height="53.9%" style="position: absolute; left: 42%; top: 37%"/>-->
+              <!--<div style="position: absolute; width: 20px; top: 39%; left: 43.5%; font-weight: bold; font-size: 15px; color: #fff">制度化</div>-->
+              <!--<div style="position: absolute; width: 20px; top: 49%; left: 43.5%; font-weight: bold; font-size: 15px; color: #fff">规范化</div>-->
+              <!--<img src="./assets/TaxBureau/cutChart/k/arrow_left.png" width="11.33%" height="3.97%" style="position: absolute; top: 52%; left: 30.7%"/>-->
+              <!--<img src="./assets/TaxBureau/cutChart/k/arrow_right.png" width="17.33%" height="4.57%" style="position: absolute; top: 40%; left: 48.5%"/>-->
+              <!--<img src="./assets/TaxBureau/cutChart/k/part.png" width="34.4%" height="30.28%" style="position: absolute; top: 48.5%; left: 1.5%"/>-->
+              <!--<img src="./assets/TaxBureau/cutChart/k/all.png" width="43.06%" height="48.95%" style="position: absolute; top: 38%; left: 54%"/>-->
               <div style="flex:1;" >&nbsp;</div>
               <img class="slideInUp" src="./assets/TaxBureau/cutChart/k/backDown.png" width="100%" height="18.36%" style="margin-bottom: 0px"/>
             </template>
@@ -419,7 +422,7 @@ export default {
   }
 .MySlider21{
   height: 100vh;
-  /*background-image: url("assets/TaxBureau/cutChart/b/ball.png");*/
+  background-image: url("assets/TaxBureau/cutChart/b/ball.png");
   background-size: 100% 100%;
 }
 .MySlider2{
@@ -443,9 +446,12 @@ export default {
   background-size: 100% 100%;
 }
 .MySlider6{
-  height: 100vh;
-  background-image: url("assets/TaxBureau/cutChart/f/back_words.png");
+  /*height: 100vh;*/
+  /*margin-left: 10%;*/
+  /*margin-top: 10%;*/
+  /*background-image: url("assets/TaxBureau/cutChart/f/back_words.png");*/
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .MySlider7{
   height: 100vh;
@@ -470,7 +476,7 @@ export default {
 }
 .MySlider11{
   height: 100vh;
-  /*background-image: url("assets/TaxBureau/cutChart/k/back_words.png");*/
+  background-image: url("assets/TaxBureau/cutChart/k/back_words.png");
   background-size: 100% 100%;
 }
   .bounce{
